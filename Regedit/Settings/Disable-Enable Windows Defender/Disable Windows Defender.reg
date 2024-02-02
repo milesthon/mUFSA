@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableBehaviorMonitoring"=dword:00000001
+"DisableOnAccessProtection"=dword:00000001
+"DisableScanOnRealtimeEnable"=dword:00000001
+"DisableIOAVProtection"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000000
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\UX Configuration]
+"Notification_Suppress"=dword:00000001
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"SecurityHealth"=-
+"WindowsDefender"=- 
