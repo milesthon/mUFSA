@@ -1,0 +1,1 @@
+msg * /Server:PC-NAME "Текст сообщения"

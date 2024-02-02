@@ -1,0 +1,1 @@
+PowerShell -Command "Set-MpPreference -DisableRealtimeMonitoring $false"
