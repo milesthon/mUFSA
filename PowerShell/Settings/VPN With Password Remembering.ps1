@@ -1,0 +1,1 @@
+﻿Add-VpnConnection -Name "Интернет (VPN)" -ServerAddress "internet.vpn.ru” -PassThru -TunnelType Automatic -AllUserConnection -RememberCredential

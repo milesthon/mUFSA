@@ -1,0 +1,1 @@
+Get-AppxPackage -allusers Microsoft.Windows.SecHealthUI | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}

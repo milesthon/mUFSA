@@ -1,0 +1,1 @@
+gcim Win32_Group | ft Name, SID

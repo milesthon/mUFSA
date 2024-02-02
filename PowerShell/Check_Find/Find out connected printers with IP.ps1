@@ -1,0 +1,1 @@
+﻿Get-Printer | Format-Table

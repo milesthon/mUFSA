@@ -1,0 +1,1 @@
+﻿Set-NetFirewallRule -Name 'WINRM-HTTP-In-TCP' -RemoteAddress Any

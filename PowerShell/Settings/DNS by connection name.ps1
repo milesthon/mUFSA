@@ -1,0 +1,1 @@
+﻿Get-NetAdapter  -Name "ИМЯ_ПОДКЛЮЧЕНИЯ" | Set-DnsClientServerAddress -ServerAddresses 8.8.8.8,1.1.1.1
