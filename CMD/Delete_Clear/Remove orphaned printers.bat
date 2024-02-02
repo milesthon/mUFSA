@@ -1,0 +1,1 @@
+cscript //B "Remove orphaned printers.vbs"

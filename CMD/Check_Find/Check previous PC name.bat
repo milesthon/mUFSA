@@ -1,0 +1,1 @@
+notepad %SYSTEMDRIVE%\WINDOWS\Debug\NetSetup.LOG

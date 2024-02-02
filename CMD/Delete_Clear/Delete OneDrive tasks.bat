@@ -1,0 +1,5 @@
+schtasks /change /disable /tn "OneDrive Standalone Update Task-S-1-5-21-2006020205-2157337557-1619561698-1106"
+schtasks /change /disable /tn "OneDrive Standalone Update Task-S-1-5-21-2006020205-2157337557-1619561698-1559"
+schtasks /change /disable /tn "OneDrive Standalone Update Task-S-1-5-21-2006020205-2157337557-1619561698-2232"
+schtasks /change /disable /tn "OneDrive Standalone Update Task-S-1-5-21-3696213563-3188263030-2188249876-500"
+del /q /s "C:\Windows\System32\Tasks\onedrive*"

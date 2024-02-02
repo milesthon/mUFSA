@@ -1,0 +1,1 @@
+rasdial NAMEVPN ЛОГИН ПАРОЛЬ

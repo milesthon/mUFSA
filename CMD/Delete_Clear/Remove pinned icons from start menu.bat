@@ -1,0 +1,2 @@
+for /f "tokens=*" %%i in ('reg.exe query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CloudStore\Store\Cache\DefaultAccount" ^| find /i "start.tilegrid"') do reg add "%%i\Current" /v Data /d "020000003f945e4aebb1d80100000000434201000a0a00d0140cca3200e22c01010000" /t REG_BINARY /f
+PowerShell -Command "Get-Process explorer | Stop-Process" 2>nul >nul
